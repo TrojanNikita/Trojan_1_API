@@ -24,13 +24,13 @@ class TodosDAO @Inject() (dbConfigProvider: DatabaseConfigProvider)(implicit ec:
   /**
    * Here we define the table. It will have a name of people
    */
-  private class TodosTable(tag: Tag) extends Table[Todo](tag, "people") {
+  private class TodosTable(tag: Tag) extends Table[Todo](tag, "TODO") {
 
     /** The ID column, which is the primary key, and auto incremented */
-    def id = column[Long]("id", O.PrimaryKey, O.AutoInc)
+    def id = column[Long]("ID", O.PrimaryKey, O.AutoInc)
 
     /** The name column */
-    def name = column[String]("name")
+    def name = column[String]("NAME")
 
 //    /** The age column */
 //    def age = column[Int]("age")
@@ -69,10 +69,63 @@ class TodosDAO @Inject() (dbConfigProvider: DatabaseConfigProvider)(implicit ec:
       ) += (name)
   }
 
+  /** Retrieve a computer from the id. */
+  def findById(id: Long): Future[Option[Todo]] =
+    db.run(todos.filter(_.id === id).result.headOption)
+
+//  val findById = for {
+//    id <- Parameters[Long]
+//    c <- this if c.id is id
+//  } yield c
+
   /**
    * List all the people in the database.
    */
   def list(): Future[Seq[Todo]] = db.run {
     todos.result
   }
+
+  /** Count all todos. */
+  def count(): Future[Int] = {
+    // this should be changed to
+    // db.run(computers.length.result)
+    // when https://github.com/slick/slick/issues/1237 is fixed
+    db.run(todos.map(_.id).length.result)
+  }
+  /** Count todos with a filter. */
+  def count(filter: String): Future[Int] = {
+    db.run(todos.filter { todo => todo.name.toLowerCase like filter.toLowerCase }.length.result)
+  }
+
+  /** Insert new computers. */
+  def insert(t: Seq[Todo]): Future[Unit] =
+    db.run(this.todos ++= t).map(_ => ())
+
+  /** Insert a new computer. */
+  def insert(t: Todo): Future[Unit] =
+    db.run(todos += t).map(_ => ())
+
+
+  /** Update a computer. */
+  def update(id: Long, t: Todo): Future[Unit] = {
+    val todoToUpdate:Todo = t.copy(id)
+    db.run(todos.filter(_.id === id).update(todoToUpdate)).map(_ => ())
+  }
+
+  /** Delete a computer. */
+  def delete(id: Long): Future[Unit] =
+    db.run(todos.filter(_.id === id).delete).map(_ => ())
+
+//
+//  def delete(id: Long): Option[Int] = {
+//    val originalSize = todos.length
+//    todos = todos.filterNot(_.id == id)
+//    Some(originalSize - todos.length) // returning the number of deleted users
+//  }
+
+
+
+
+
+
 }

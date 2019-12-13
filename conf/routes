@@ -10,7 +10,15 @@ GET     /                           controllers.HomeController.index
 # Computers list (look at the default values for pagination parameters)
 GET     /todos                  controllers.HomeController.getTodos
 
-POST    /todo                     controllers.HomeController.addTodo
+POST    /todos/new              controllers.HomeController.addTodo
+
+
+# Edit existing computer
+GET     /todos/:id              controllers.HomeController.getTodo(id:Long)
+#POST    /todos/:id              controllers.HomeController.update(id:Long)
+
+
+
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

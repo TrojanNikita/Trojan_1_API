@@ -26,6 +26,9 @@ libraryDependencies ++= Seq(
 
 libraryDependencies+="org.postgresql" % "postgresql" % "42.2.1"
 
+
+libraryDependencies += "com.typesafe.play" %% "play-json" % "2.8.1"
+
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "ффф.controllers._"
 

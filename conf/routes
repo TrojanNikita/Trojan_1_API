@@ -6,5 +6,11 @@
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
 
+
+# Computers list (look at the default values for pagination parameters)
+GET     /todos                  controllers.HomeController.getTodos
+
+POST    /todo                     controllers.HomeController.addTodo
+
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

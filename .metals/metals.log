@@ -1763,3 +1763,859 @@ INFO  compiling root (8 scala sources and 1 java source)
 INFO  time: compiled root in 4.07s
 INFO  compiling root-test (1 scala source)
 INFO  time: compiled root-test in 0.21s
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,Alert.class)
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split.class)
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split$.class)
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent.class)
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent$.class)
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText.class)
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText$.class)
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/model/,Statement.class)
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByLinkText.class)
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,LinesContent.class)
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent.class)
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent$.class)
+дек 16, 2019 3:52:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByPartialLinkText.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,Alert.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split$.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent$.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText$.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/model/,Statement.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByLinkText.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,LinesContent.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent$.class)
+дек 16, 2019 3:53:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByPartialLinkText.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.41s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.4s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.23s
+ERROR Failed to compile 'root'
+дек 16, 2019 4:00:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/producer/,Stream.class)
+дек 16, 2019 4:00:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/junit/,MockitoJUnitRunner$Strict.class)
+дек 16, 2019 4:00:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/runners/,MockitoJUnitRunner$Strict.class)
+дек 16, 2019 4:00:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+дек 16, 2019 4:00:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+дек 16, 2019 4:00:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+дек 16, 2019 4:00:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.71s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.79s
+дек 16, 2019 4:06:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/fp/,Name.class)
+дек 16, 2019 4:06:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/eclipse/jetty/util/annotation/,Name.class)
+дек 16, 2019 4:06:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/ast/,Name.class)
+дек 16, 2019 4:06:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/fp/,Name$.class)
+дек 16, 2019 4:06:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/fp/,Name.class)
+дек 16, 2019 4:06:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/eclipse/jetty/util/annotation/,Name.class)
+дек 16, 2019 4:06:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/ast/,Name.class)
+дек 16, 2019 4:06:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/fp/,Name$.class)
+дек 16, 2019 4:06:56 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/dom3/as/,ASNamedObjectMap.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.72s
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 0.72s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.77s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.53s
+дек 16, 2019 4:08:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/fp/,Name.class)
+дек 16, 2019 4:08:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/eclipse/jetty/util/annotation/,Name.class)
+дек 16, 2019 4:08:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/ast/,Name.class)
+дек 16, 2019 4:08:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/fp/,Name$.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.6s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.3s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.32s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.39s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.75s
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 1.07s
+ERROR Failed to compile 'root'
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 0.98s
+ERROR Failed to compile 'root'
+дек 16, 2019 4:16:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 0.24s
+ERROR Failed to compile 'root'
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 0.81s
+ERROR Failed to compile 'root'
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 0.85s
+ERROR Failed to compile 'root'
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 0.84s
+ERROR Failed to compile 'root'
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 1.04s
+ERROR Failed to compile 'root','root-test'
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 3.85s
+дек 16, 2019 4:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2731
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.4s
+дек 16, 2019 4:24:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2837
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.65s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.65s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.26s
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 0.71s
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 4.68s
+дек 16, 2019 5:03:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 16, 2019 5:03:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/bootstrap/,Bootstrap.class)
+дек 16, 2019 5:03:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 16, 2019 5:03:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,ToStream$BoolStack.class)
+дек 16, 2019 5:03:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 16, 2019 5:03:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 16, 2019 5:03:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,ToStream$BoolStack.class)
+дек 16, 2019 5:03:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 16, 2019 5:03:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/bootstrap/,Bootstrap.class)
+дек 16, 2019 5:03:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 16, 2019 5:03:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,ToStream$BoolStack.class)
+дек 16, 2019 5:04:02 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 16, 2019 5:04:02 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 16, 2019 5:04:02 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,ToStream$BoolStack.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.81s
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.64s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.82s
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.6s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.77s
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.58s
+ERROR Failed to compile 'root'
+дек 16, 2019 5:04:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 16, 2019 5:04:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/bootstrap/,Bootstrap.class)
+дек 16, 2019 5:04:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.72s
+ERROR Failed to compile 'root'
+дек 16, 2019 5:04:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3140
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.84s
+ERROR Failed to compile 'root'
+дек 16, 2019 5:05:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+дек 16, 2019 5:07:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/fp/,Name.class)
+дек 16, 2019 5:07:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/eclipse/jetty/util/annotation/,Name.class)
+дек 16, 2019 5:07:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/sourceforge/htmlunit/corejs/javascript/ast/,Name.class)
+дек 16, 2019 5:07:23 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/fp/,Name$.class)
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.86s
+ERROR Failed to compile 'root'
+дек 16, 2019 5:08:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3266
+дек 16, 2019 5:09:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/producer/,Stream.class)
+дек 16, 2019 5:09:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/junit/,MockitoJUnitRunner$Strict.class)
+дек 16, 2019 5:09:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/runners/,MockitoJUnitRunner$Strict.class)
+дек 16, 2019 5:09:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+дек 16, 2019 5:09:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+дек 16, 2019 5:09:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+дек 16, 2019 5:09:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+дек 16, 2019 5:10:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:11:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3331
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,Alert.class)
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split.class)
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split$.class)
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent.class)
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent$.class)
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText.class)
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText$.class)
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/model/,Statement.class)
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByLinkText.class)
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,LinesContent.class)
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent.class)
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent$.class)
+дек 16, 2019 5:11:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByPartialLinkText.class)
+дек 16, 2019 5:12:09 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/,Version.class)
+дек 16, 2019 5:12:09 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Position.class)
+дек 16, 2019 5:12:09 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Geolocation.class)
+дек 16, 2019 5:12:09 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/channel/socket/nio/,NioChannelOption.class)
+дек 16, 2019 5:12:09 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/exceptions/base/,MockitoException.class)
+дек 16, 2019 5:12:09 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/,Constants$ArrayEnumeration.class)
+дек 16, 2019 5:12:09 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/exceptions/base/,MockitoInitializationException.class)
+дек 16, 2019 5:12:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:12:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:12:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:12:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:12:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.85s
+ERROR Failed to compile 'root'
+дек 16, 2019 5:12:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:12:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3395
+дек 16, 2019 5:13:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/intl/,Intl.class)
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.94s
+ERROR Failed to compile 'root','root-test'
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union1.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union2.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union3.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Unions.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union1$.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Unions$.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union2L.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union2R.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union3L.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union3M.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union3R.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/dtd/models/,CMUniOp.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union2L$.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union2R$.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union3L$.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union3M$.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,Union3R$.class)
+дек 16, 2019 5:13:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$UnionOp.class)
+дек 16, 2019 5:14:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:14:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:15:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.84s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+дек 16, 2019 5:16:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  time: compiled root in 0.58s
+ERROR Failed to compile 'root'
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,Alert.class)
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split.class)
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split$.class)
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent.class)
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent$.class)
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText.class)
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText$.class)
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/model/,Statement.class)
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByLinkText.class)
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,LinesContent.class)
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent.class)
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent$.class)
+дек 16, 2019 5:17:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByPartialLinkText.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,Alert.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split$.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent$.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText$.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/model/,Statement.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByLinkText.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,LinesContent.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent$.class)
+дек 16, 2019 5:17:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByPartialLinkText.class)
+дек 16, 2019 5:17:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:17:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,Alert.class)
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split.class)
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split$.class)
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent.class)
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent$.class)
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText.class)
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText$.class)
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/model/,Statement.class)
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByLinkText.class)
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,LinesContent.class)
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent.class)
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent$.class)
+дек 16, 2019 5:18:20 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByPartialLinkText.class)
+дек 16, 2019 5:18:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:19:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:19:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:19:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:20:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:20:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:20:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:30:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:31:41 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/producer/,Stream.class)
+дек 16, 2019 5:31:41 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/junit/,MockitoJUnitRunner$Strict.class)
+дек 16, 2019 5:31:41 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/runners/,MockitoJUnitRunner$Strict.class)
+дек 16, 2019 5:31:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+дек 16, 2019 5:31:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+дек 16, 2019 5:31:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+дек 16, 2019 5:31:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,Alert.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split$.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent$.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText$.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/model/,Statement.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByLinkText.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,LinesContent.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent$.class)
+дек 16, 2019 5:31:55 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByPartialLinkText.class)
+дек 16, 2019 5:32:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:32:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:32:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:32:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3889
+дек 16, 2019 5:32:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/,Version.class)
+дек 16, 2019 5:32:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Position.class)
+дек 16, 2019 5:32:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Geolocation.class)
+дек 16, 2019 5:32:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/channel/socket/nio/,NioChannelOption.class)
+дек 16, 2019 5:32:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/exceptions/base/,MockitoException.class)
+дек 16, 2019 5:32:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/,Constants$ArrayEnumeration.class)
+дек 16, 2019 5:32:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/exceptions/base/,MockitoInitializationException.class)
+дек 16, 2019 5:43:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,Alert.class)
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split.class)
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split$.class)
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent.class)
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent$.class)
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText.class)
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText$.class)
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/model/,Statement.class)
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByLinkText.class)
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,LinesContent.class)
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent.class)
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent$.class)
+дек 16, 2019 5:43:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByPartialLinkText.class)
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.12s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.13s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 77ms
+ERROR Failed to compile 'root'
+дек 16, 2019 5:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4099
+дек 16, 2019 5:50:56 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 16, 2019 5:50:56 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/bootstrap/,Bootstrap.class)
+дек 16, 2019 5:50:56 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 16, 2019 5:50:57 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 16, 2019 5:50:57 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 16, 2019 5:50:57 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,ToStream$BoolStack.class)
+дек 16, 2019 5:50:57 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 16, 2019 5:50:58 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 16, 2019 5:50:58 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 16, 2019 5:51:06 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/,Version.class)
+дек 16, 2019 5:51:06 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Position.class)
+дек 16, 2019 5:51:06 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Geolocation.class)
+дек 16, 2019 5:51:06 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/channel/socket/nio/,NioChannelOption.class)
+дек 16, 2019 5:51:06 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/exceptions/base/,MockitoException.class)
+дек 16, 2019 5:51:06 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/,Constants$ArrayEnumeration.class)
+дек 16, 2019 5:51:06 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/exceptions/base/,MockitoInitializationException.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,Alert.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split$.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent$.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText$.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/model/,Statement.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByLinkText.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,LinesContent.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent$.class)
+дек 16, 2019 5:51:22 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByPartialLinkText.class)
+дек 16, 2019 5:51:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:51:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,Alert.class)
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split.class)
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split$.class)
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent.class)
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent$.class)
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText.class)
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText$.class)
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/model/,Statement.class)
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByLinkText.class)
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,LinesContent.class)
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent.class)
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent$.class)
+дек 16, 2019 5:51:37 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByPartialLinkText.class)
+дек 16, 2019 5:51:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/,Version.class)
+дек 16, 2019 5:51:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Position.class)
+дек 16, 2019 5:51:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Geolocation.class)
+дек 16, 2019 5:51:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/channel/socket/nio/,NioChannelOption.class)
+дек 16, 2019 5:51:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/exceptions/base/,MockitoException.class)
+дек 16, 2019 5:51:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/,Constants$ArrayEnumeration.class)
+дек 16, 2019 5:51:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/exceptions/base/,MockitoInitializationException.class)
+дек 16, 2019 5:52:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/,Version.class)
+дек 16, 2019 5:52:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Position.class)
+дек 16, 2019 5:52:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Geolocation.class)
+дек 16, 2019 5:52:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/channel/socket/nio/,NioChannelOption.class)
+дек 16, 2019 5:52:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/exceptions/base/,MockitoException.class)
+дек 16, 2019 5:52:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/,Constants$ArrayEnumeration.class)
+дек 16, 2019 5:52:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/exceptions/base/,MockitoInitializationException.class)
+дек 16, 2019 5:52:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.84s
+ERROR Failed to compile 'root'
+дек 16, 2019 5:52:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:52:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 16, 2019 5:53:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.83s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.76s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.62s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 8.68s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.37s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 3.23s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.15s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 1.45s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.19s
+ERROR Failed to compile 'root'
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 3.83s
+дек 16, 2019 6:08:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4483
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.52s

@@ -11,7 +11,7 @@ import play.api.i18n._
 import play.api.data.Form
 import play.api.data.Forms.{  mapping, nonEmptyText }
 import scala.concurrent.{ExecutionContext,Future}
-import models.Todo
+import models.{Todo, NameOfTodo, IdOfTodo}
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -26,105 +26,6 @@ class HomeController @Inject()(repo: TodosDAO,
 
 
 
-  /**
-   * The mapping for the todo form.
-   */
-  // val todoForm: Form[CreateTodoForm] = Form {
-  //   mapping(
-  //     "name" -> nonEmptyText
-  //   )(CreateTodoForm.apply)(CreateTodoForm.unapply)
-  // }
-
-  /**
-   * The index action.
-   */
-  // def index = Action { implicit request =>
-  //   Ok(views.html.index(todoForm))
-  // }
-
-
-
-  /**
-   * The add todo action.
-   *
-   * This is asynchronous, since we're invoking the asynchronous methods on PersonRepository.
-   */
-  // def addTodo = Action(parse.json) { implicit request =>
-  //   // // Bind the form first, then fold the result, passing a function to handle errors, and a function to handle succes.
-  //   // todoForm.bindFromRequest.fold(
-  //   //   // The error function. We return the index page with the error form, which will render the errors.
-  //   //   // We also wrap the result in a successful future, since this action is synchronous, but we're required to return
-  //   //   // a future because the person creation function returns a future.
-  //   //   errorForm => {
-  //   //     Future.successful(Ok(views.html.index(errorForm)))
-  //   //   },
-  //   //   // There were no errors in the from, so create the todo.
-  //   //   todo => {
-  //   //     repo.create(todo.name).map { _ =>
-  //   //       // If successful, we simply redirect to the index page.
-  //   //       Redirect(routes.HomeController.index).flashing("success" -> "todo.created")
-  //   //     }
-  //   //   }
-  //   // )
-  //   val newTodo = request.body.as[String]
-
-  //   val todos = repo.create(newTodo)
-  //   Ok(Json.toJson(todos))
-
-
-  // }
-
-
-  def addTodo = Action(parse.tolerantJson) { implicit request =>
-
-
-      val name = request.body.as[Todo]
-
-      
-      // Ok(Json.toJson(name))
-
-      //val todos = repo.create(name)
-
-      Ok(Json.toJson(name))      
-
-    // val todos = repo.create(name)
-    // Ok(Json.toJson(todos))
-
-
-  }
-
-  def getTodo(id:Long) = Action.async { implicit request =>
-    repo.findById(id).map{t=>
-      Ok(Json.toJson(t))}
-  }
-
-
-
-  /**
-   * Handle the 'edit form' submission
-   *
-   * @param id Id of the computer to edit
-   */
-//  def updateTodo = Action.async { implicit request =>
-//    // Bind the form first, then fold the result, passing a function to handle errors, and a function to handle succes.
-//    todoForm.bindFromRequest.fold(
-//      // The error function. We return the index page with the error form, which will render the errors.
-//      // We also wrap the result in a successful future, since this action is synchronous, but we're required to return
-//      // a future because the person creation function returns a future.
-//      errorForm => {
-//        Future.successful(Ok(views.html.index(errorForm)))
-//      },
-//      // There were no errors in the from, so create the todo.
-//      todo => {
-//        repo.update(todo.name,todo).map { _ =>
-//          // If successful, we simply redirect to the index page.
-//          Redirect(routes.HomeController.index).flashing("success" -> "todo.created")
-//        }
-//      }
-//    )
-//  }
-
-
 
 
   /**
@@ -135,6 +36,64 @@ class HomeController @Inject()(repo: TodosDAO,
       Ok(Json.toJson(todo))
     }
   }
+
+
+    //Добавление 
+  //Параметры:  name
+  //       /todos/new    - routing
+  def addTodo = Action(parse.tolerantJson) { implicit request =>
+
+      val body = request.body.as[NameOfTodo]
+      
+      repo.create(body.name,false)
+        Ok(Json.toJson(body.name))   
+   
+  }
+
+
+    //Получение 
+  //       /todos/id    - routing
+  def getTodo(id:Long) = Action.async { implicit request =>
+    repo.findById(id).map{t=>
+      Ok(Json.toJson(t))}
+  }
+
+
+  //Изменение label
+  //Параметры:  name
+  //       /todo/id    - routing
+    def updateTodo(id:Long)=Action(parse.tolerantJson) { implicit request =>
+
+        val body = request.body.as[NameOfTodo]
+        
+        repo.update(id,body.name)
+          Ok(Json.toJson(body.name))   
+ 
+    }
+
+
+    //Удаление 
+    //Параметры id удаляемого элемента
+  //       /todos/id    - routing
+    def deleteTodo=Action(parse.tolerantJson) { implicit request =>
+
+      val body = request.body.as[IdOfTodo]
+      
+      repo.delete(body.id)
+        Ok(Json.toJson(body.id))   
+
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 }
 

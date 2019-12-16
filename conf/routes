@@ -15,7 +15,9 @@ POST    /todos/new              controllers.HomeController.addTodo
 
 # Edit existing computer
 GET     /todos/:id              controllers.HomeController.getTodo(id:Long)
-#POST    /todos/:id              controllers.HomeController.update(id:Long)
+POST    /todo/:id             controllers.HomeController.updateTodo(id:Long)
+POST    /todo/del             controllers.HomeController.deleteTodo
+
 
 
 

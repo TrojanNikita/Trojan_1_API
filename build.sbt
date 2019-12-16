@@ -22,9 +22,13 @@ libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "4.0.3
 libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play-slick" % "4.0.2",
   "com.typesafe.play" %% "play-slick-evolutions" % "4.0.2"
+
 )
 
-libraryDependencies+="org.postgresql" % "postgresql" % "42.2.1"
+libraryDependencies+="mysql" % "mysql-connector-java" % "5.1.34"
+
+
+//libraryDependencies+="org.postgresql" % "postgresql" % "42.2.1"
 
 
 libraryDependencies += "com.typesafe.play" %% "play-json" % "2.8.1"

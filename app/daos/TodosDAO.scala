@@ -122,25 +122,17 @@ class TodosDAO @Inject() (dbConfigProvider: DatabaseConfigProvider)(implicit ec:
     db.run(todos += t).map(_ => ())
 
 
-  // /** Update a computer. */
-  //   /** Update a computer. */
-  //   def update (id: Long, name: String) : Future[Unit] = {
-  //     db.run(todos.filter(_.id === id).update(name)).map(_ => ())
 
-  //   }
+  def update(id: Long, newName: String): Future[Boolean] =
+    db.run(todos.filter(_.id === id).map(_.name).update(newName).map( _ > 0))
 
 
-    // def update(id:Long,name: String): Future[Int] = {
-    //   db.run(todos.filter(_.id === id)
-    //     .map(a => (a.name))
-    //     .update((name)))
-    // }
+    
+  def updateDone(id: Long, newDone:Boolean): Future[Boolean] =
+    db.run(todos.filter(_.id === id).map(_.done).update(!newDone).map( _ > 0))
 
-
-    def update(id: Long, newName: String): Future[Boolean] =
-      db.run(todos.filter(_.id === id).map(_.name).update(newName).map( _ > 0))
-
-
+  def deleteAll(b:Boolean): Future[Unit] =
+  db.run(todos.filter(_.done === true).delete).map(_ => ())
 
 
   /** Delete a computer. */

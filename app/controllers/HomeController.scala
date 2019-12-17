@@ -12,6 +12,7 @@ import play.api.data.Form
 import play.api.data.Forms.{  mapping, nonEmptyText }
 import scala.concurrent.{ExecutionContext,Future}
 import models.{Todo, NameOfTodo, IdOfTodo}
+import models.DoneOfTodo
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -62,14 +63,28 @@ class HomeController @Inject()(repo: TodosDAO,
   //Изменение label
   //Параметры:  name
   //       /todo/id    - routing
-    def updateTodo(id:Long)=Action(parse.tolerantJson) { implicit request =>
+  def updateTodo(id:Long)=Action(parse.tolerantJson) { implicit request =>
 
-        val body = request.body.as[NameOfTodo]
-        
-        repo.update(id,body.name)
-          Ok(Json.toJson(body.name))   
- 
-    }
+      val body = request.body.as[NameOfTodo]
+      
+      repo.update(id,body.name)
+        Ok(Json.toJson(body.name))   
+
+  }
+
+
+  //Изменение label
+  //Параметры:  name
+  //       /todo/id/change    - routing
+  def updateTodoDone(id:Long)=Action(parse.tolerantJson) { implicit request =>
+
+    val body = request.body.as[DoneOfTodo]    
+    repo.updateDone(id,body.done)
+    Ok(Json.toJson("Done is changed!"))   
+}
+
+
+
 
 
     //Удаление 
@@ -77,24 +92,34 @@ class HomeController @Inject()(repo: TodosDAO,
   //       /todos/id    - routing
     def deleteTodo=Action(parse.tolerantJson) { implicit request =>
 
-      val body = request.body.as[IdOfTodo]
-      
+      val body = request.body.as[IdOfTodo]      
       repo.delete(body.id)
-        Ok(Json.toJson(body.id))   
+      Ok(Json.toJson(body.id))   
 
   }
 
+      //Удаление по выполненному доделать
+  //       /todos/delete   - routing
+  // def deleteAllDone = Action.async { implicit request =>
+  //   repo.deleteAll(true)
 
-
-
-
-
-
-
-
+  // }
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // case class CreateTodoForm(name: String)

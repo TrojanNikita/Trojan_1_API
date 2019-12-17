@@ -19,5 +19,5 @@ object IdOfTodo {
 }
 case class DoneOfTodo(done: Boolean)
 object DoneOfTodo {
-  implicit val todoFormat = Json.format[IdOfTodo]
+  implicit val todoFormat = Json.format[DoneOfTodo]
 }

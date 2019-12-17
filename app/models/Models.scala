@@ -3,7 +3,7 @@ package models
 import play.api.data.Form
 import play.api.libs.json._
 
-case class Todo(id: Long, name: String, done:Boolean)
+case class Todo(id: Long, name: String, done:Boolean, priority:Int)
 
 object Todo {
   implicit val todoFormat = Json.format[Todo]

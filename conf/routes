@@ -8,12 +8,13 @@
 
 
 # Computers list (look at the default values for pagination parameters)
-GET     /todos                  controllers.HomeController.getTodos
 
-POST    /todos/new              controllers.HomeController.addTodo
+
 
 
 # Edit existing computer
+GET     /todos                  controllers.HomeController.getTodos
+POST    /todos/new              controllers.HomeController.addTodo
 GET     /todos/:id            controllers.HomeController.getTodo(id:Long)
 #GET     /todos/delete         controllers.HomeController.deleteAllDone
 POST    /todo/:id             controllers.HomeController.updateTodo(id:Long)

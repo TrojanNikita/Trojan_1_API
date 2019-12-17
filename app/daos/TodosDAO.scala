@@ -34,6 +34,8 @@ class TodosDAO @Inject() (dbConfigProvider: DatabaseConfigProvider)(implicit ec:
 
     /** The name column */
     def done = column[Boolean]("DONE")
+    /** The name column */
+    def priority = column[Int]("PRIORITY")
 
 //    /** The age column */
 //    def age = column[Int]("age")
@@ -46,7 +48,7 @@ class TodosDAO @Inject() (dbConfigProvider: DatabaseConfigProvider)(implicit ec:
      * In this case, we are simply passing the id, name and page parameters to the Person case classes
      * apply and unapply methods.
      */
-    def * = (id, name, done) <> ((Todo.apply _).tupled, Todo.unapply)
+    def * = (id, name, done, priority) <> ((Todo.apply _).tupled, Todo.unapply)
   }
 
   /**
@@ -73,16 +75,16 @@ class TodosDAO @Inject() (dbConfigProvider: DatabaseConfigProvider)(implicit ec:
   // }
 
 
-  def create(name: String, done: Boolean): Future[Todo] = db.run {
+  def create(name: String, done: Boolean, priority:Int): Future[Todo] = db.run {
     // We create a projection of just the name and age columns, since we're not inserting a value for the id column
-    (todos.map(p => (p.name, p.done))
+    (todos.map(p => (p.name, p.done,p.priority))
       // Now define it to return the id, because we want to know what id was generated for the person
       returning todos.map(_.id)
       // And we define a transformation for the returned value, which combines our original parameters with the
       // returned id
-      into ((nameDone, id) => Todo(id, nameDone._1, nameDone._2))
+      into ((nameDone, id) => Todo(id, nameDone._1, nameDone._2, nameDone._3))
     // And finally, insert the person into the database
-    ) += (name, done)
+    ) += (name, done, priority)
   }
 
   /** Retrieve a computer from the id. */

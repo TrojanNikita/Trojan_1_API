@@ -3362,3 +3362,139 @@ INFO  time: compiled root in 0.28s
 ERROR Failed to compile 'root'
 INFO  compiling root (8 scala sources and 1 java source)
 INFO  time: compiled root in 4.32s
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+Client in /Users/tk_user/Task_1_API/Task1_API/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  time: initialize in 0.7s
+INFO  running embedded 'bloop bsp --protocol local --socket /var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp6363728354431642028/-1r9lacbp81m3i.socket'
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /Users/tk_user/Task_1_API/Task1_API/app/models/Models.scala
+The server is listening for incoming connections at local:///var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp6363728354431642028/-1r9lacbp81m3i.socket...
+Accepted incoming BSP client connection at local:///var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp6363728354431642028/-1r9lacbp81m3i.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tk_user/Library/Caches/org.scalameta.metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 9.36s
+BSP initialization handshake complete.
+INFO  no build target: using presentation compiler with only scala-library
+INFO  time: imported build in 0.69s
+INFO  time: indexed workspace in 4.68s
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 18s
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 1.37s
+дек 17, 2019 6:57:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/build/,CachedReturnPlugin$int.class)
+дек 17, 2019 6:57:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/eff/,package$interpret$.class)
+дек 17, 2019 6:57:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/intl/,Intl.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 4.01s
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 1.35s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 3.88s
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 1.17s
+ERROR Failed to compile 'root'
+дек 17, 2019 6:58:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 2.38s
+ERROR Failed to compile 'root'
+дек 17, 2019 6:59:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/support/,CacheLookup.class)
+дек 17, 2019 6:59:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,StringLookup.class)
+дек 17, 2019 6:59:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,MapStringLookup.class)
+дек 17, 2019 6:59:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,NullStringLookup.class)
+дек 17, 2019 6:59:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,LocalHostStringLookup.class)
+дек 17, 2019 6:59:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,InterpolatorStringLookup.class)
+дек 17, 2019 6:59:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,JavaPlatformStringLookup.class)
+дек 17, 2019 6:59:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,SystemPropertyStringLookup.class)
+дек 17, 2019 6:59:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/util/concurrent/,AbstractEventExecutorGroup.class)
+дек 17, 2019 6:59:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,ResourceBundleStringLookup.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 1.66s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 1s
+ERROR Failed to compile 'root'
+дек 17, 2019 7:00:26 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/intl/,Intl.class)
+дек 17, 2019 7:00:34 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/support/,CacheLookup.class)
+дек 17, 2019 7:00:34 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,StringLookup.class)
+дек 17, 2019 7:00:34 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,MapStringLookup.class)
+дек 17, 2019 7:00:34 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,NullStringLookup.class)
+дек 17, 2019 7:00:34 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,LocalHostStringLookup.class)
+дек 17, 2019 7:00:34 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,InterpolatorStringLookup.class)
+дек 17, 2019 7:00:34 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,JavaPlatformStringLookup.class)
+дек 17, 2019 7:00:34 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,SystemPropertyStringLookup.class)
+дек 17, 2019 7:00:34 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/util/concurrent/,AbstractEventExecutorGroup.class)
+дек 17, 2019 7:00:34 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,ResourceBundleStringLookup.class)
+дек 17, 2019 7:00:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/,Version.class)
+дек 17, 2019 7:00:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Position.class)
+дек 17, 2019 7:00:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/geo/,Geolocation.class)
+дек 17, 2019 7:00:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/channel/socket/nio/,NioChannelOption.class)
+дек 17, 2019 7:00:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/exceptions/base/,MockitoException.class)
+дек 17, 2019 7:00:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/,Constants$ArrayEnumeration.class)
+дек 17, 2019 7:00:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/exceptions/base/,MockitoInitializationException.class)
+дек 17, 2019 7:00:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/support/,CacheLookup.class)
+дек 17, 2019 7:00:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,StringLookup.class)
+дек 17, 2019 7:00:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,MapStringLookup.class)
+дек 17, 2019 7:00:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,NullStringLookup.class)
+дек 17, 2019 7:00:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,LocalHostStringLookup.class)
+дек 17, 2019 7:00:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,InterpolatorStringLookup.class)
+дек 17, 2019 7:00:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,JavaPlatformStringLookup.class)
+дек 17, 2019 7:00:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,SystemPropertyStringLookup.class)
+дек 17, 2019 7:00:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/util/concurrent/,AbstractEventExecutorGroup.class)
+дек 17, 2019 7:00:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,ResourceBundleStringLookup.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 3.74s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.3s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 4.05s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.38s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 3.8s

@@ -46,7 +46,7 @@ class HomeController @Inject()(repo: TodosDAO,
 
       val body = request.body.as[NameOfTodo]
       
-      repo.create(body.name,false)
+      repo.create(body.name,false,0)
         Ok(Json.toJson(body.name))   
    
   }

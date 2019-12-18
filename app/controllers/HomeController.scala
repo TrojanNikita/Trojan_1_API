@@ -42,14 +42,14 @@ class HomeController @Inject()(repo: TodosDAO,
     //Добавление 
   //Параметры:  name
   //       /todos/new    - routing
-  def addTodo = Action(parse.tolerantJson) { implicit request =>
+  def addTodo = Action(parse.tolerantJson).async { implicit request =>
 
       val body = request.body.as[NameOfTodo]
       
-      repo.create(body.name,false,0)
-        Ok(Json.toJson(body.name))   
+      repo.create(body.name,false,0).map(i => Ok(Json.toJson(i)))
+      }   
    
-  }
+
 
 
     //Получение 
@@ -68,8 +68,7 @@ class HomeController @Inject()(repo: TodosDAO,
       val body = request.body.as[NameOfTodo]
       
       repo.update(id,body.name)
-        Ok(Json.toJson(body.name))   
-
+      Ok(Json.toJson({id}))  
   }
 
 
@@ -80,7 +79,7 @@ class HomeController @Inject()(repo: TodosDAO,
 
     val body = request.body.as[DoneOfTodo]    
     repo.updateDone(id,body.done)
-    Ok(Json.toJson("Done is changed!"))   
+    Ok(Json.toJson({id}))   
 }
 
 

@@ -126,7 +126,7 @@ class TodosDAO @Inject() (dbConfigProvider: DatabaseConfigProvider)(implicit ec:
 
 
   def update(id: Long, newName: String): Future[Boolean] =
-    db.run(todos.filter(_.id === id).map(_.name).update(newName).map( _ > 0))
+    db.run(todos.filter(_.id === id).map(_.name).update(newName).map( _ >0))
 
 
     

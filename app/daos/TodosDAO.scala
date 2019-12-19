@@ -133,6 +133,10 @@ class TodosDAO @Inject() (dbConfigProvider: DatabaseConfigProvider)(implicit ec:
   def updateDone(id: Long, newDone:Boolean): Future[Boolean] =
     db.run(todos.filter(_.id === id).map(_.done).update(!newDone).map( _ > 0))
 
+  def updatePriority(id: Long, newPriority:Int): Future[Boolean] =
+  db.run(todos.filter(_.id === id).map(_.priority).update(newPriority).map( _ > 0))
+
+
   def deleteAll(b:Boolean): Future[Unit] =
   db.run(todos.filter(_.done === true).delete).map(_ => ())
 

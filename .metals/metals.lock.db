@@ -1,6 +1,6 @@
 #FileLock
-#Wed Dec 18 15:42:21 MSK 2019
+#Thu Dec 19 09:41:05 MSK 2019
 hostName=localhost
-id=16f1907d3bf85c1d5589a10a34ac31625af0691e83d
+id=16f1ce372cf3552711b5932208cf2189b270c254e65
 method=file
-server=localhost\:59575
+server=localhost\:49526

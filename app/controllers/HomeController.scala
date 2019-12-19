@@ -11,7 +11,7 @@ import play.api.i18n._
 import play.api.data.Form
 import play.api.data.Forms.{  mapping, nonEmptyText }
 import scala.concurrent.{ExecutionContext,Future}
-import models.{Todo, NameOfTodo, IdOfTodo}
+import models.{Todo, NameOfTodo, IdOfTodo,PriorityOfTodo,DoneOfTodo}
 import models.DoneOfTodo
 
 /**
@@ -68,7 +68,7 @@ class HomeController @Inject()(repo: TodosDAO,
       val body = request.body.as[NameOfTodo]
       
       repo.update(id,body.name)
-      Ok(Json.toJson({id}))  
+      Ok(Json.toJson(id))  
   }
 
 
@@ -82,6 +82,16 @@ class HomeController @Inject()(repo: TodosDAO,
     Ok(Json.toJson({id}))   
 }
 
+  //Изменение label
+  //Параметры:  name
+  //       /todo/id/priority    - routing
+  def updateTodoPriority(id:Long)=Action(parse.tolerantJson) { implicit request =>
+
+    val body = request.body.as[PriorityOfTodo]    
+    repo.updatePriority(id,body.priority)
+    Ok(Json.toJson(body.priority))   
+}
+
 
 
 
@@ -89,11 +99,10 @@ class HomeController @Inject()(repo: TodosDAO,
     //Удаление 
     //Параметры id удаляемого элемента
   //       /todos/id    - routing
-    def deleteTodo=Action(parse.tolerantJson) { implicit request =>
+    def deleteTodo(id:Long)=Action.async { implicit request =>
 
-      val body = request.body.as[IdOfTodo]      
-      repo.delete(body.id)
-      Ok(Json.toJson(body.id))   
+      repo.delete(id).map{t=>
+      Ok(Json.toJson(id))  }
 
   }
 

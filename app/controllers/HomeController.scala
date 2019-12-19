@@ -2,7 +2,7 @@ package controllers
 
 import javax.inject._
 
-import play.api.libs.json.Json
+import play.api.libs.json._
 import daos.TodosDAO
 import play.api._
 import play.api.mvc._
@@ -11,6 +11,8 @@ import play.api.i18n._
 import play.api.data.Form
 import play.api.data.Forms.{  mapping, nonEmptyText }
 import scala.concurrent.{ExecutionContext,Future}
+import models.{Todo, NameOfTodo, IdOfTodo,PriorityOfTodo,DoneOfTodo}
+import models.DoneOfTodo
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -21,87 +23,6 @@ class HomeController @Inject()(repo: TodosDAO,
                                  cc: MessagesControllerComponents
                                 )(implicit ec: ExecutionContext)
   extends MessagesAbstractController(cc) {
-
-
-
-
-  /**
-   * The mapping for the todo form.
-   */
-  val todoForm: Form[CreateTodoForm] = Form {
-    mapping(
-      "name" -> nonEmptyText
-    )(CreateTodoForm.apply)(CreateTodoForm.unapply)
-  }
-
-  /**
-   * The index action.
-   */
-  def index = Action { implicit request =>
-    Ok(views.html.index(todoForm))
-  }
-
-
-
-  /**
-   * The add todo action.
-   *
-   * This is asynchronous, since we're invoking the asynchronous methods on PersonRepository.
-   */
-  def addTodo = Action.async { implicit request =>
-    // Bind the form first, then fold the result, passing a function to handle errors, and a function to handle succes.
-    todoForm.bindFromRequest.fold(
-      // The error function. We return the index page with the error form, which will render the errors.
-      // We also wrap the result in a successful future, since this action is synchronous, but we're required to return
-      // a future because the person creation function returns a future.
-      errorForm => {
-        Future.successful(Ok(views.html.index(errorForm)))
-      },
-      // There were no errors in the from, so create the todo.
-      todo => {
-        repo.create(todo.name).map { _ =>
-          // If successful, we simply redirect to the index page.
-          Redirect(routes.HomeController.index).flashing("success" -> "todo.created")
-        }
-      }
-    )
-  }
-
-  def getTodo(id:Long) = Action.async { implicit request =>
-    repo.findById(id).map{t=>
-      Ok(Json.toJson(t))}
-  }
-
-
-
-  /**
-   * Handle the 'edit form' submission
-   *
-   * @param id Id of the computer to edit
-   */
-//  def updateTodo = Action.async { implicit request =>
-//    // Bind the form first, then fold the result, passing a function to handle errors, and a function to handle succes.
-//    todoForm.bindFromRequest.fold(
-//      // The error function. We return the index page with the error form, which will render the errors.
-//      // We also wrap the result in a successful future, since this action is synchronous, but we're required to return
-//      // a future because the person creation function returns a future.
-//      errorForm => {
-//        Future.successful(Ok(views.html.index(errorForm)))
-//      },
-//      // There were no errors in the from, so create the todo.
-//      todo => {
-//        repo.update(todo.name,todo).map { _ =>
-//          // If successful, we simply redirect to the index page.
-//          Redirect(routes.HomeController.index).flashing("success" -> "todo.created")
-//        }
-//      }
-//    )
-//  }
-
-
-
-
-
 
 
 
@@ -117,6 +38,111 @@ class HomeController @Inject()(repo: TodosDAO,
     }
   }
 
+
+    //Добавление 
+  //Параметры:  name
+  //       /todos/new    - routing
+  def addTodo = Action(parse.tolerantJson).async { implicit request =>
+
+      val body = request.body.as[NameOfTodo]
+      
+      repo.create(body.name,false,0).map(i => Ok(Json.toJson(i)))
+      }   
+   
+
+
+
+    //Получение 
+  //       /todos/id    - routing
+  def getTodo(id:Long) = Action.async { implicit request =>
+    repo.findById(id).map{t=>
+      Ok(Json.toJson(t))}
+  }
+
+
+  //Изменение label
+  //Параметры:  name
+  //       /todo/id    - routing
+  def updateTodo(id:Long)=Action(parse.tolerantJson) { implicit request =>
+
+      val body = request.body.as[NameOfTodo]
+      
+      repo.update(id,body.name)
+      Ok(Json.toJson(id))  
+  }
+
+
+  //Изменение label
+  //Параметры:  name
+  //       /todo/id/change    - routing
+  def updateTodoDone(id:Long)=Action(parse.tolerantJson) { implicit request =>
+
+    val body = request.body.as[DoneOfTodo]    
+    repo.updateDone(id,body.done)
+    Ok(Json.toJson({id}))   
 }
 
-case class CreateTodoForm(name: String)
+
+  //Изменение label
+  //Параметры:  done
+  //       /todos/done   - routing
+  def updateAllDone=Action(parse.tolerantJson) { implicit request =>
+
+    val body = request.body.as[DoneOfTodo]    
+    repo.updateAllDone(body.done)
+    Ok(Json.toJson(body.done))   
+}
+
+  //Изменение label
+  //Параметры:  name
+  //       /todo/id/priority    - routing
+  def updateTodoPriority(id:Long)=Action(parse.tolerantJson) { implicit request =>
+
+    val body = request.body.as[PriorityOfTodo]    
+    repo.updatePriority(id,body.priority)
+    Ok(Json.toJson(body.priority))   
+}
+
+
+
+
+
+    //Удаление 
+    //Параметры id удаляемого элемента
+  //       /todos/id    - routing
+    def deleteTodo(id:Long)=Action.async { implicit request =>
+
+      repo.delete(id).map{t=>
+        Ok(Json.toJson(id))  
+      }
+  }
+
+      //Удаление по выполненному доделать
+      // /todos/delete   - routing
+  def deleteAllDone = Action(parse.tolerantJson) { implicit request =>
+
+    val body = request.body.as[DoneOfTodo]   
+    repo.deleteAll(body.done)
+      Ok(Json.toJson(body.done)) 
+    
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// case class CreateTodoForm(name: String)

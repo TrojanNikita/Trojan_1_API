@@ -32,6 +32,11 @@ class TodosDAO @Inject() (dbConfigProvider: DatabaseConfigProvider)(implicit ec:
     /** The name column */
     def name = column[String]("NAME")
 
+    /** The name column */
+    def done = column[Boolean]("DONE")
+    /** The name column */
+    def priority = column[Int]("PRIORITY")
+
 //    /** The age column */
 //    def age = column[Int]("age")
 
@@ -43,7 +48,7 @@ class TodosDAO @Inject() (dbConfigProvider: DatabaseConfigProvider)(implicit ec:
      * In this case, we are simply passing the id, name and page parameters to the Person case classes
      * apply and unapply methods.
      */
-    def * = (id, name) <> ((Todo.apply _).tupled, Todo.unapply)
+    def * = (id, name, done, priority) <> ((Todo.apply _).tupled, Todo.unapply)
   }
 
   /**
@@ -57,16 +62,29 @@ class TodosDAO @Inject() (dbConfigProvider: DatabaseConfigProvider)(implicit ec:
    * This is an asynchronous operation, it will return a future of the created person, which can be used to obtain the
    * id for that person.
    */
-  def create(name: String): Future[Todo] = db.run {
+  // def create(name: String): Future[Todo] = db.run {
+  //   // We create a projection of just the name and age columns, since we're not inserting a value for the id column
+  //   (todos.map(todo => (todo.name, todo.done))
+  //     // Now define it to return the id, because we want to know what id was generated for the person
+  //     returning todos.map(_.id)
+  //     // And we define a transformation for the returned value, which combines our original parameters with the
+  //     // returned id
+  //     into (((name,done), id) => Todo(id, name, done))
+  //     // And finally, insert the person into the database
+  //     ) += (name,done)
+  // }
+
+
+  def create(name: String, done: Boolean, priority:Int): Future[Todo] = db.run {
     // We create a projection of just the name and age columns, since we're not inserting a value for the id column
-    (todos.map(todo => (todo.name))
+    (todos.map(p => (p.name, p.done,p.priority))
       // Now define it to return the id, because we want to know what id was generated for the person
       returning todos.map(_.id)
       // And we define a transformation for the returned value, which combines our original parameters with the
       // returned id
-      into ((name, id) => Todo(id, name))
-      // And finally, insert the person into the database
-      ) += (name)
+      into ((nameDone, id) => Todo(id, nameDone._1, nameDone._2, nameDone._3))
+    // And finally, insert the person into the database
+    ) += (name, done, priority)
   }
 
   /** Retrieve a computer from the id. */
@@ -106,15 +124,33 @@ class TodosDAO @Inject() (dbConfigProvider: DatabaseConfigProvider)(implicit ec:
     db.run(todos += t).map(_ => ())
 
 
-  /** Update a computer. */
-  def update(id: Long, t: Todo): Future[Unit] = {
-    val todoToUpdate:Todo = t.copy(id)
-    db.run(todos.filter(_.id === id).update(todoToUpdate)).map(_ => ())
-  }
 
-  /** Delete a computer. */
-  def delete(id: Long): Future[Unit] =
-    db.run(todos.filter(_.id === id).delete).map(_ => ())
+  def update(id: Long, newName: String): Future[Boolean] =
+    db.run(todos.filter(_.id === id).map(_.name).update(newName).map( _ >0))
+
+
+    
+  def updateDone(id: Long, newDone:Boolean): Future[Unit] =
+    db.run(todos.filter(_.id === id).map(_.done).update(!newDone).map( _ > 0))
+
+
+    def updateAllDone(newDone:Boolean): Future[Boolean] =
+    db.run(todos.filter(_.done === newDone).map(_.done).update(!newDone).map( _ > 0))
+
+
+
+
+  def updatePriority(id: Long, newPriority:Int): Future[Boolean] =
+  db.run(todos.filter(_.id === id).map(_.priority).update(newPriority).map( _ > 0))
+
+
+  def deleteAll(b:Boolean): Future[Unit] =
+  db.run(todos.filter(_.done === b).delete).map(_ => ())
+
+
+  def delete(id: Long): Future[Unit] = db.run{
+    todos.filter(_.id === id).delete.map(_ => ())
+  }
 
 //
 //  def delete(id: Long): Option[Int] = {

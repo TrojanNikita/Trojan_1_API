@@ -82,6 +82,17 @@ class HomeController @Inject()(repo: TodosDAO,
     Ok(Json.toJson({id}))   
 }
 
+
+  //Изменение label
+  //Параметры:  done
+  //       /todos/done   - routing
+  def updateAllDone=Action(parse.tolerantJson) { implicit request =>
+
+    val body = request.body.as[DoneOfTodo]    
+    repo.updateAllDone(body.done)
+    Ok(Json.toJson(body.done))   
+}
+
   //Изменение label
   //Параметры:  name
   //       /todo/id/priority    - routing
@@ -102,16 +113,20 @@ class HomeController @Inject()(repo: TodosDAO,
     def deleteTodo(id:Long)=Action.async { implicit request =>
 
       repo.delete(id).map{t=>
-      Ok(Json.toJson(id))  }
-
+        Ok(Json.toJson(id))  
+      }
   }
 
       //Удаление по выполненному доделать
-  //       /todos/delete   - routing
-  // def deleteAllDone = Action.async { implicit request =>
-  //   repo.deleteAll(true)
+      // /todos/delete   - routing
+  def deleteAllDone = Action(parse.tolerantJson) { implicit request =>
 
-  // }
+    val body = request.body.as[DoneOfTodo]   
+    repo.deleteAll(body.done)
+      Ok(Json.toJson(body.done)) 
+    
+
+  }
 
 
 

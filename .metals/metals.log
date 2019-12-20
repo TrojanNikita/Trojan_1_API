@@ -4446,3 +4446,29 @@ INFO  compiling root (1 scala source)
 INFO  time: compiled root in 1.87s
 INFO  compiling root (1 scala source)
 INFO  time: compiled root in 3.22s
+INFO  time: initialize in 0.91s
+INFO  running embedded 'bloop bsp --protocol local --socket /var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp1559697836339110180/r4rinbqjho7l.socket'
+INFO  skipping build import with status 'Installed'
+The server is listening for incoming connections at local:///var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp1559697836339110180/r4rinbqjho7l.socket...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tk_user/Library/Caches/org.scalameta.metals/bsp.trace.json
+Accepted incoming BSP client connection at local:///var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp1559697836339110180/r4rinbqjho7l.socket
+request received: build/initialize
+INFO  time: connected to build server in 8.38s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.59s
+INFO  time: indexed workspace in 2.52s
+WARN  no build target: 
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 22s
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 10s
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 8.66s
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 6.81s
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 7.05s
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 5.54s
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 7.03s

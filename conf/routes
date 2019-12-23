@@ -5,16 +5,17 @@
 
 
 
-GET     /todos                           controllers.TodoController.getTodos
+GET     /todos                            controllers.TodoController.get
 
-POST    /todos/new                         controllers.TodoController.addTodo
+POST    /todos/new                         controllers.TodoController.add
 
-PUT    /todos/update?status=:status       controllers.TodoController.updateAllDone(status:Boolean)
+PUT    /todos/update/:status       controllers.TodoController.updateAllDone(status:Boolean)
 PUT    /todos/:id/name/:name              controllers.TodoController.updateTodo(id:Long, name:String)
 PUT    /todos/:id/status/:status           controllers.TodoController.updateTodoDone(id:Long,status:Boolean)
 PUT    /todos/:id/priority/:priority       controllers.TodoController.updateTodoPriority(id:Long, priority:Int)
 
-DELETE  /todos/:status                    controllers.TodoController.deleteAllDone(status:Boolean)
+
 DELETE  /todos/:id                        controllers.TodoController.deleteTodo(id:Long)
+DELETE  /todos/status/:status                    controllers.TodoController.deleteAllDone(status:Boolean)
 
 

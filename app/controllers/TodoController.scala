@@ -10,8 +10,10 @@ import play.api.i18n._
 
 import play.api.data.Form
 import play.api.data.Forms.{  mapping, nonEmptyText }
+
+import play.api.data.validation.ValidationError
 import scala.concurrent.{ExecutionContext,Future}
-import models.Todo
+import models.{Todo}
 
 
 class TodoController @Inject()(todosDAO: TodosDAO,
@@ -20,7 +22,7 @@ class TodoController @Inject()(todosDAO: TodosDAO,
   extends MessagesAbstractController(cc) {
 
 
-  def getTodos = Action.async { implicit request =>
+  def get = Action.async { implicit request =>
     todosDAO.list().map { todo =>
       Ok(Json.toJson(todo))
     }
@@ -28,88 +30,51 @@ class TodoController @Inject()(todosDAO: TodosDAO,
 
 
 
-  def addTodo: Action[JsValue] = Action(parse.json) {
+  def add= Action(parse.json(Todo.readsMyClass)).async {
     implicit request =>
-      val eitherTodo = validateParsedResult(request.body.validate[Todo])
-      eitherTodo.fold(
-        errorResponse => BadRequest(Json.toJson(errorResponse)),
-        todo => todosDAO.create(todo).map(i => Ok(Json.toJson(i)))
-      )
+        val body = request.body      
+        todosDAO.create(body) map (newTodo=>
+            Ok(Json.toJson(newTodo))
+        )     
   }
 
 
-
-  // def addTodo(name:String) = Action(parse.).async { implicit request =>
-
-
-  //     todosDAO.create(name,false,0).map(i => Ok(Json.toJson(i)))
-  //     }   
-   
-
-  def getTodo(id:Long) = Action.async { implicit request =>
-    todosDAO.findById(id).map{t=>
-      Ok(Json.toJson(t))}
+  
+  def updateTodo(id:Long,name:String)=Action.async{ implicit request =>      
+      todosDAO.update(id,name).map{t=>
+        Ok(Json.toJson(id))  
+      }
   }
 
-  def updateTodo(id:Long,name:String)=Action(parse.tolerantJson) { implicit request =>
-
-      
-      todosDAO.update(id,name)
-      Ok(Json.toJson(id))  
+  def updateTodoDone(id:Long,status:Boolean)=Action.async { implicit request => 
+    todosDAO.updateDone(id,status) map {_=>
+       Ok(Json.toJson({id}))   
+    }
   }
 
-  def updateTodoDone(id:Long,status:Boolean)=Action(parse.tolerantJson) { implicit request =>
- 
-    todosDAO.updateDone(id,status)
-    Ok(Json.toJson({id}))   
-}
 
-
-  def updateAllDone(status:Boolean)=Action(parse.tolerantJson) { implicit request =>
-
-    todosDAO.updateAllDone(status)
+  def updateAllDone(status:Boolean)=Action.async { implicit request =>
+    todosDAO.updateAllDone(status).map{_=>
     Ok(Json.toJson(status))   
-}
+    }
+  }
 
-  def updateTodoPriority(id:Long,priority:Int)=Action(parse.tolerantJson) { implicit request =>
+  def updateTodoPriority(id:Long,priority:Int)=Action.async { implicit request =>
+    todosDAO.updatePriority(id,priority).map{_=>
+        Ok(Json.toJson(priority))   
+    }
+  }
 
-    todosDAO.updatePriority(id,priority)
-    Ok(Json.toJson(priority))   
-}
 
 
   def deleteTodo(id:Long)=Action.async { implicit request =>
-
-    todosDAO.delete(id).map{t=>
+    todosDAO.delete(id).map{_=>
       Ok(Json.toJson(id))  
     }
   }
 
-  def deleteAllDone(status:Boolean) = Action(parse.tolerantJson) { implicit request =>
- 
-    todosDAO.deleteAll(status)
-      Ok(Json.toJson(status)) 
-    
-
+  def deleteAllDone(status:Boolean) = Action.async { implicit request => 
+    todosDAO.deleteAll(status).map{t=>
+      Ok(Json.toJson(status)) }
   }
-
-
-
-
-
-
-
-  def validateParsedResult[T](jsResult: JsResult[T]): Either[ErrorResponse, T] =
-  jsResult.fold(
-    (errors: Seq[(JsPath, Seq[ValidationError])]) => {
-      val map = fmtValidationResults(errors)
-      Left(ErrorResponse("Validation Error", map))
-    },
-    (t: T) => Right(t)
-  )
-  
-
-
-
-
 }

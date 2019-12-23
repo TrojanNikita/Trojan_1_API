@@ -4472,3 +4472,492 @@ INFO  compiling root (8 scala sources and 1 java source)
 INFO  time: compiled root in 5.54s
 INFO  compiling root (8 scala sources and 1 java source)
 INFO  time: compiled root in 7.03s
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+Client in /Users/tk_user/Task_1_API/Task1_API/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
+INFO  time: initialize in 0.71s
+INFO  running embedded 'bloop bsp --protocol local --socket /var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp6669790507013416160/-1mlv4y4kels1.socket'
+INFO  skipping build import with status 'Installed'
+The server is listening for incoming connections at local:///var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp6669790507013416160/-1mlv4y4kels1.socket...
+Accepted incoming BSP client connection at local:///var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp6669790507013416160/-1mlv4y4kels1.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tk_user/Library/Caches/org.scalameta.metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 7.69s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.55s
+INFO  time: indexed workspace in 1.96s
+WARN  no build target: 
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+Client in /Users/tk_user/Task_1_API/Task1_API/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
+INFO  time: initialize in 3.8s
+INFO  running embedded 'bloop bsp --protocol local --socket /var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp6687981501071282955/-1d0qx3i5a0s4l.socket'
+INFO  skipping build import with status 'Installed'
+The server is listening for incoming connections at local:///var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp6687981501071282955/-1d0qx3i5a0s4l.socket...
+Accepted incoming BSP client connection at local:///var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp6687981501071282955/-1d0qx3i5a0s4l.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tk_user/Library/Caches/org.scalameta.metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 13s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.75s
+INFO  time: indexed workspace in 2.9s
+WARN  no build target: 
+дек 21, 2019 3:07:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+Client in /Users/tk_user/Task_1_API/Task1_API/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  time: initialize in 0.84s
+INFO  running embedded 'bloop bsp --protocol local --socket /var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp8392545195392948026/x8c0q9lbkk4p.socket'
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /Users/tk_user/Task_1_API/Task1_API/app/daos/TodosDAO.scala
+The server is listening for incoming connections at local:///var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp8392545195392948026/x8c0q9lbkk4p.socket...
+Accepted incoming BSP client connection at local:///var/folders/tw/wb75zs5944s3xwvhf60rd4t40000gp/T/bsp8392545195392948026/x8c0q9lbkk4p.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tk_user/Library/Caches/org.scalameta.metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 9.05s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.5s
+INFO  time: indexed workspace in 1.92s
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 4.79s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 8.92s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 4.75s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 2.86s
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 5.38s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.78s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.62s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 2.64s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.57s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 1 java source)
+INFO  time: compiled root in 9.04s
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 0.9s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.62s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.97s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.3s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.89s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.3s
+ERROR Failed to compile 'root','root-test'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.7s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.48s
+ERROR Failed to compile 'root','root-test'
+дек 23, 2019 9:53:15 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/producer/,Stream.class)
+дек 23, 2019 9:53:16 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/junit/,MockitoJUnitRunner$Strict.class)
+дек 23, 2019 9:53:16 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/runners/,MockitoJUnitRunner$Strict.class)
+дек 23, 2019 9:53:16 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+дек 23, 2019 9:53:16 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+дек 23, 2019 9:53:17 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+дек 23, 2019 9:53:17 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.66s
+ERROR Failed to compile 'root'
+дек 23, 2019 9:53:51 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/producer/,Stream.class)
+дек 23, 2019 9:53:51 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/junit/,MockitoJUnitRunner$Strict.class)
+дек 23, 2019 9:53:51 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/mockito/runners/,MockitoJUnitRunner$Strict.class)
+дек 23, 2019 9:53:52 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+дек 23, 2019 9:53:52 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+дек 23, 2019 9:53:52 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XString.class)
+дек 23, 2019 9:53:52 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/xpath/regex/,Op$StringOp.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.96s
+дек 23, 2019 9:54:01 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+ERROR Failed to compile 'root'
+дек 23, 2019 9:54:31 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 23, 2019 9:54:31 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/bootstrap/,Bootstrap.class)
+дек 23, 2019 9:54:31 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 23, 2019 9:54:31 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,ToStream$BoolStack.class)
+дек 23, 2019 9:54:32 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 23, 2019 9:54:32 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 23, 2019 9:54:32 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,ToStream$BoolStack.class)
+дек 23, 2019 9:54:42 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/wait/,FluentWaitElementList.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.81s
+ERROR Failed to compile 'root'
+дек 23, 2019 9:55:46 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/intl/,Intl.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.57s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.64s
+ERROR Failed to compile 'root'
+дек 23, 2019 9:57:45 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 23, 2019 9:57:45 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/bootstrap/,Bootstrap.class)
+дек 23, 2019 9:57:45 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 23, 2019 9:57:45 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,ToStream$BoolStack.class)
+дек 23, 2019 9:57:46 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 23, 2019 9:57:46 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 23, 2019 9:57:46 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,ToStream$BoolStack.class)
+дек 23, 2019 9:57:46 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 23, 2019 9:57:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 23, 2019 9:57:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 23, 2019 9:57:55 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/wait/,FluentWaitElementList.class)
+дек 23, 2019 9:58:04 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/wait/,FluentWaitElementList.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.65s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.9s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.7s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.6s
+ERROR Failed to compile 'root'
+дек 23, 2019 9:59:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 594
+дек 23, 2019 9:59:55 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 23, 2019 9:59:55 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/bootstrap/,Bootstrap.class)
+дек 23, 2019 9:59:55 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 23, 2019 9:59:55 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,ToStream$BoolStack.class)
+дек 23, 2019 9:59:55 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 23, 2019 9:59:55 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 23, 2019 9:59:55 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,ToStream$BoolStack.class)
+дек 23, 2019 10:00:01 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/wait/,FluentWaitElementList.class)
+дек 23, 2019 10:00:05 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/fluentlenium/core/wait/,FluentWaitElementList.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 2.07s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.4s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 2.14s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.33s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 1.03s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.29s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 3.77s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.33s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 1.69s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.32s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 3.11s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.27s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 1.66s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.29s
+ERROR Failed to compile 'root'
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+something's wrong: no file:///Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala in play.api.libs.json.Reads[<error>]RangePosition(file:///Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala, 332, 332, 343)
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+дек 23, 2019 10:12:27 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/intl/,Intl.class)
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 1.28s
+ERROR Failed to compile 'root'
+дек 23, 2019 10:13:16 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.73s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.87s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.59s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.9s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.89s
+ERROR Failed to compile 'root'
+дек 23, 2019 10:15:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 921
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.79s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.7s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 1 java source)
+INFO  time: compiled root in 1.2s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 1 java source)
+INFO  time: compiled root in 1.07s
+ERROR Failed to compile 'root'
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/tk_user/Task_1_API/Task1_API/app/models/Todo.scala' because the SemanticDB file '/Users/tk_user/Task_1_API/Task1_API/.bloop/root/scala-2.13/bloop-bsp-clients-classes/classes-Metals-2DB2wtJwSo-9l5IhZm1YtA==/META-INF/semanticdb/app/models/Todo.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+INFO  compiling root (7 scala sources and 1 java source)
+INFO  time: compiled root in 7.92s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.65s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 2.27s
+дек 23, 2019 10:38:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/control/,package$Actions$.class)
+дек 23, 2019 10:38:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+дек 23, 2019 10:38:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/specification/dsl/,ActionDsl.class)
+дек 23, 2019 10:38:56 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/specification/dsl/mutable/,ActionDsl.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.84s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.31s
+INFO  compiling root (7 scala sources and 1 java source)
+INFO  time: compiled root in 4.58s
+INFO  compiling root (7 scala sources and 1 java source)
+INFO  time: compiled root in 6.84s
+дек 23, 2019 11:00:06 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/support/,CacheLookup.class)
+дек 23, 2019 11:00:06 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,StringLookup.class)
+дек 23, 2019 11:00:06 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,MapStringLookup.class)
+дек 23, 2019 11:00:06 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,NullStringLookup.class)
+дек 23, 2019 11:00:06 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,LocalHostStringLookup.class)
+дек 23, 2019 11:00:06 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,InterpolatorStringLookup.class)
+дек 23, 2019 11:00:06 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,JavaPlatformStringLookup.class)
+дек 23, 2019 11:00:06 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,SystemPropertyStringLookup.class)
+дек 23, 2019 11:00:06 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/util/concurrent/,AbstractEventExecutorGroup.class)
+дек 23, 2019 11:00:06 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/commons/text/lookup/,ResourceBundleStringLookup.class)
+дек 23, 2019 11:00:07 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/,package.class)
+дек 23, 2019 11:00:07 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/,package$.class)
+дек 23, 2019 11:11:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 23, 2019 11:11:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1153
+дек 23, 2019 11:12:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1188
+дек 23, 2019 11:13:49 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/intl/,Intl.class)
+дек 23, 2019 11:13:58 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/objects/,XBoolean.class)
+дек 23, 2019 11:13:58 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/bootstrap/,Bootstrap.class)
+дек 23, 2019 11:13:58 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,BoolStack.class)
+дек 23, 2019 11:13:58 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,ToStream$BoolStack.class)
+дек 23, 2019 11:14:03 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/intl/,Intl.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.31s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.34s
+ERROR Failed to compile 'root'
+дек 23, 2019 11:15:17 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/intl/,Intl.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.33s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.32s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.18s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+ERROR Failed to compile 'root','root-test'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.28s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.25s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 67ms
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.21s
+ERROR Failed to compile 'root'
+дек 23, 2019 11:19:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1392
+дек 23, 2019 11:20:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 23, 2019 11:20:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.26s
+ERROR Failed to compile 'root'
+дек 23, 2019 11:21:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+дек 23, 2019 11:21:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,Alert.class)
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split.class)
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Split$.class)
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent.class)
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,Indent$.class)
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText.class)
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,ShowText$.class)
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/model/,Statement.class)
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByLinkText.class)
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,LinesContent.class)
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent.class)
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/specs2/text/,SeqLinesContent$.class)
+дек 23, 2019 11:22:47 AM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/,By$ByPartialLinkText.class)
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.18s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.59s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.48s
+ERROR Failed to compile 'root'

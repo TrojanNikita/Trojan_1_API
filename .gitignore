@@ -6,4 +6,9 @@ target
 /.project
 /.settings
 /RUNNING_PID
+<<<<<<< HEAD
 /.metals
+=======
+/.metals
+/.bloop
+>>>>>>> error-correction

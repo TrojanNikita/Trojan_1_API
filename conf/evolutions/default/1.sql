@@ -1,6 +1,6 @@
 # --- !Ups
 
-CREATE TABLE TODO (     
+CREATE TABLE todo (     
     id BIGINT  NOT NULL AUTO_INCREMENT,     
     name text NOT NULL,  
     done boolean NOT NULL,   
@@ -11,5 +11,5 @@ CREATE TABLE TODO (
 
 # --- !Downs
 
-DROP TABLE TODO;
+DROP TABLE todo;
 

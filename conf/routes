@@ -4,18 +4,22 @@
 # ~~~~
 
 
-
++ nocsrf
 GET     /todos                            controllers.TodoController.get
-
++ nocsrf
 POST    /todos/new                         controllers.TodoController.add
-
++ nocsrf
 PUT    /todos/update/:status       controllers.TodoController.updateAllDone(status:Boolean)
++ nocsrf
 PUT    /todos/:id/name/:name              controllers.TodoController.updateTodo(id:Long, name:String)
++ nocsrf
 PUT    /todos/:id/status/:status           controllers.TodoController.updateTodoDone(id:Long,status:Boolean)
++ nocsrf
 PUT    /todos/:id/priority/:priority       controllers.TodoController.updateTodoPriority(id:Long, priority:Int)
 
-
++ nocsrf
 DELETE  /todos/:id                        controllers.TodoController.deleteTodo(id:Long)
++ nocsrf
 DELETE  /todos/status/:status                    controllers.TodoController.deleteAllDone(status:Boolean)
 
 

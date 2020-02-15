@@ -23,3 +23,9 @@ DELETE  /todos/:id                        controllers.TodoController.deleteTodo(
 DELETE  /todos/status/:status                    controllers.TodoController.deleteAllDone(status:Boolean)
 
 
++ nocsrf
+GET     /users                            controllers.AuthController.get
++ nocsrf
+GET     /users/name/:username/pass/:password       controllers.AuthController.loginUser(username:String, password:String)
++ nocsrf
+POST    /users/new                         controllers.AuthController.add
